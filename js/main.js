@@ -308,6 +308,13 @@
         right_section.style.width = '50%';
         left_Colose.className = HIDDEN;
         left_Open.className = EMPTY;
+        slid_text_A.textContent = '「' + today_Input_Num1.value + '」' + 'やるの忘れてませんか？';
+        slid_text_B.textContent = '「' + today_Input_Num2.value + '」' + 'の前に運動してる？';
+        slid_text_C.textContent = '「' + today_Input_Num3.value + '」' + '越えろ５分の壁！';
+        slid_text_D.textContent = 'ジョブズになったつもりで' + '「' + today_Input_Num4.value + '」' + 'やってみよう';
+        slid_text_E.textContent = '「' + today_Input_Num5.value + '」' + '違うパターンでやってみる？';
+        slid_text_F.textContent = '不安を書きだして見たら？' + '「' + today_Input_Num6.value + '」' + '良くなるかも';
+        slid_text_G.textContent = '不安を書きだして見たら？' + '「' + today_Input_Num7.value + '」' + '良くなるかも';
     });
 
     // 右画面を大画面にする。
@@ -317,6 +324,13 @@
         right_section.style.width = '99%';
         left_Colose.className = EMPTY;
         left_Open.className = HIDDEN;
+        slid_text_A.textContent = '「' + today_Input_Num1.value + '」' + 'やるの忘れてませんか？';
+        slid_text_B.textContent = '「' + today_Input_Num2.value + '」' + 'の前に運動してる？';
+        slid_text_C.textContent = '「' + today_Input_Num3.value + '」' + '越えろ５分の壁！';
+        slid_text_D.textContent = 'ジョブズになったつもりで' + '「' + today_Input_Num4.value + '」' + 'やってみよう';
+        slid_text_E.textContent = '「' + today_Input_Num5.value + '」' + '違うパターンでやってみる？';
+        slid_text_F.textContent = '不安を書きだして見たら？' + '「' + today_Input_Num6.value + '」' + '良くなるかも';
+        slid_text_G.textContent = '不安を書きだして見たら？' + '「' + today_Input_Num7.value + '」' + '良くなるかも';
     });
 
     // 明日やるべき事リストを生成する
@@ -576,6 +590,12 @@
         right_section.style.width = '99%';
         left_Colose.className = EMPTY;
         left_Open.className = HIDDEN;
+        slid_text_A.textContent = '';
+        slid_text_B.textContent = '';
+        slid_text_C.textContent = '';
+        slid_text_D.textContent = '';
+        slid_text_E.textContent = '';
+        slid_text_F.textContent = '';
     });
 
 
